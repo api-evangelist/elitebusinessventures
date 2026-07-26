@@ -1,8 +1,30 @@
 aid: elitebusinessventures
-name: Elitebusinessventures
-description: 'Elitebusinessventures is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elitebusinessventures.png
+name: Elite Business Ventures
+description: >-
+  Elite Business Ventures, LLC (EBV, ebvinc.com) is a San Diego-based workplace
+  compliance company founded in 2005 that has helped over one million businesses
+  stay compliant with federal and state labor laws and workplace safety
+  regulations. It operates through two primary brands: PosterElite, a
+  white-label labor-law-poster compliance platform embedded by HR, payroll, HCM,
+  PEO, and workforce-management providers under their own brand; and
+  Osha4Less.com, an ecommerce store of affordable OSHA and labor-law compliance
+  products for small businesses. EBV is a portfolio company of Norwest Venture
+  Partners. The company exposes no public developer API, SDK, MCP server, or
+  documentation surface — partner integration is handled through direct
+  white-label / reseller arrangements rather than a self-service developer
+  program.
 url: https://raw.githubusercontent.com/api-evangelist/elitebusinessventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Compliance
+- Labor Law
+- Workplace Safety
+- Human Resources
+- Payroll
+- Compliance Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/elitebusinessventures-domain-security.yml
 - type: Website
   url: https://elitebusinessventures.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
